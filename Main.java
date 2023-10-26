@@ -34,9 +34,7 @@ public class Main{
         while(!shouldFinish){
             timesTired++;
             if(timesTired<5){
-
-        
-                if(timesTired == x){
+                 if(timesTired == x){
                 hasWon = true ;
                 shouldFinish = true;
 
