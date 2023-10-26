@@ -52,13 +52,11 @@ public class Main{
             }
         }
         if (hasWon){
-            System.out.println("Congratulations ! you have guessed in your"+ timesTired +"guess");
+            System.out.println("Congratulations ! you have guessed in your "+ timesTired +"guess");
         }else {
             System.out.println("Game Over!");
             System.out.println("The number was :"+ x);
         }
     }
-
     }
-    
 }
